@@ -80,7 +80,6 @@ class MainActivity : AppCompatActivity() {
                 var temp_max = jsonMain.getString("temp_max")
                 var humidity = jsonMain.getString("humidity")
                 var pressure = jsonMain.getString("pressure")
-                var temp_feels_like = jsonMain.getString("feels_like")
                 var weather = jsonWeather.getString("main")
                 //sunrise sunset
                 var sunrise = jsonSys.getLong("sunrise")
